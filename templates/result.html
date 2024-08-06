@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Analysis</h1>
+    <form action="/predict" method="post">
+        <textarea name="text" rows="10" cols="50" placeholder="Enter text here..."></textarea><br>
+        <input type="submit" value="Analyze">
+    </form>
+    {% if prediction %}
+        <h2>Analysis Result</h2>
+        <p><strong>Text:</strong> {{ prediction.text }}</p>
+        <p><strong>Predicted Sentiment:</strong> {{ prediction.predicted_sentiment }}</p>
+    {% endif %}
+</body>
+</html>

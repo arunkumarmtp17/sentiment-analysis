@@ -1,0 +1,7 @@
+cudf-cu12 @ https://pypi.nvidia.com/cudf-cu12/cudf_cu12-24.4.1-cp310-cp310-manylinux_2_28_x86_64.whl#sha256=57366e7ef09dc63e0b389aff20df6c37d91e2790065861ee31a4720149f5b694
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
+google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz#sha256=9cb04abf3ddfde33eb0687e5c02429c98e28306a79336133d350fbc48503cbe9
+jaxlib @ https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.26+cuda12.cudnn89-cp310-cp310-manylinux2014_x86_64.whl#sha256=813cf1fe3e7ca4dbf5327d6e7b4fc8521e92d8bba073ee645ae0d5d036a25750
+torch @ https://download.pytorch.org/whl/cu121/torch-2.3.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=f0deb5d2f932a68ed54625ba140eddbf2af22be978ee19b9b63c986add6425b2
+torchaudio @ https://download.pytorch.org/whl/cu121/torchaudio-2.3.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=0b423f4ae3356f11f6723e8c77208ac3f9361a4f941e4cc08d86c32c137594bc
+torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.18.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=e95ba5a2c616939281e01babf11664d6d1725e81bba57ef81f81c3e57e4d4151
